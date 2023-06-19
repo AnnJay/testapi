@@ -6,6 +6,7 @@ class Category(BaseModel):
     name: str
     description: str
     img_url: str
+    type: str
 
 
 class Comment(BaseModel):
